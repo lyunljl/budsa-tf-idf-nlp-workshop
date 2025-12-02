@@ -23,7 +23,7 @@ import numpy as np
 import re
 from collections import Counter
 from math import log
-from script import ClubGenerator as cd
+from automation import ClubGenerator as cd
 ```
 - **pandas**: Handles tabular data (CSV file reading and manipulation).
 - **numpy**: Performs numerical operations and similarity computations.
@@ -58,7 +58,7 @@ def preprocess_text(text):
 
 ### **3. Build Vocabulary**
 ```python 
-description = df["description"].fillna("").tolist()
+description = df["Description"].fillna("").tolist()
 tokenized_descriptions = []
 for desc in description:
     tokenized_descriptions.append(preprocess_text(desc))
