@@ -39,7 +39,6 @@ def compute_tf(doc_tokens):
     Returns:
         dict: Mapping from word to its TF value in the document.
     """
-    def compute_tf(doc_tokens):
 
     return tf_dict
 
