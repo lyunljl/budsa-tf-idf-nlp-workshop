@@ -36,7 +36,7 @@ from script import ClubGenerator as cd
 
 ### **2. Load and Preprocess Dataset**
 ```python
-file_path = "C:\Users\linja\Desktop\Communiti Temp\club_table.csv"
+file_path = "use your own file path!!!"
 df = pd.read_csv(file_path)
 ```
 - Reads the **CSV file** containing club names and descriptions.
